@@ -1,6 +1,5 @@
-$(function() {
-  $('.clickable').click(function() {
-    $('#first-showing').toggle();
-    $('#first-hidden').toggle();
-  })
-});
+$(document).ready(function() {
+  $("h1").click(function() {
+    $("p").show();
+    });
+  });
