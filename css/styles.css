@@ -1,11 +1,17 @@
 
 h1 {
-  cursor: pointer;
+  font-family: 'Cinzel', serif;
 }
 
 h1:hover {
   text-decoration: underline;
-  color: red;
+  color: white;
+  cursor: help;
+}
+
+body {
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 p {
@@ -18,4 +24,8 @@ p {
   font-size: 44px;
   width: 400px;
   height: 400px;
+}
+
+.col-sm-4 {
+  width: 400px;
 }
